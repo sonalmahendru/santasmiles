@@ -1,0 +1,29 @@
+@font-face{
+    font-family: hp;
+    src: url(./font/HPSimplified_Bd.ttf) format("truetype");
+}
+
+body{
+    margin: auto;
+    background:#ffffff;
+    font-family: hp;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    flex:1;
+}
+
+#top{
+    margin: 1rem;
+}
+#logo{
+    text-align: center;
+    margin: 1rem;
+}
