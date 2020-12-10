@@ -60,3 +60,17 @@ main{
 #footer p{
     margin: 0.7em;
 }
+
+@media only screen and (max-width: 500px){
+    #top p{
+        margin: 0.05em;
+    }
+
+    #footer p{
+        margin: 0.3em;
+    }
+
+    #footer{
+        padding-bottom:0px;
+    }
+}
