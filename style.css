@@ -1,6 +1,6 @@
 @font-face{
     font-family: hp;
-    src: url(./font/HPSimplified_Bd.ttf) format("truetype");
+    src: url(./font/HPSimplifiedRegular.ttf) format("truetype");
 }
 
 body{
@@ -14,16 +14,49 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    max-width: 500px;
+    height: 100vh;
 }
+
+
 
 .section{
     flex:1;
+    text-align: center;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#id{
+    align-items: center;
 }
 
 #top{
     margin: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    justify-content: center;
 }
+
+#top p{
+    margin: 0.2em;
+}
+
 #logo{
     text-align: center;
     margin: 1rem;
+}
+
+#footer{
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+    margin: 1rem;
+}
+
+#footer p{
+    margin: 0.7em;
 }
