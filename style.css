@@ -66,6 +66,10 @@ main{
         margin: 0.05em;
     }
 
+    #top{
+        padding: 0px;
+    }
+
     #footer p{
         margin: 0.3em;
     }
