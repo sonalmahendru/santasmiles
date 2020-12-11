@@ -69,7 +69,7 @@ main{
     }
 
     #top{
-        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     #footer p{
@@ -78,5 +78,6 @@ main{
 
     #footer{
         padding-bottom:0px;
+        margin-bottom: 0px;
     }
 }
