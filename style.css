@@ -66,11 +66,12 @@ main{
 
 .bullet{
     display: flex;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
 }
 
 .bullet-icon{
-    flex:1
+    flex:1;
+    align-self: center;
 }
 
 .bullet-text{
